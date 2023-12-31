@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className={`flex min-h-screen flex-col p-24 item-center ${darkMode?"bg-gray-600 text-gray-200":"bg-gray-200 text-gray-800"} `}>
        <NavBar handleTheme={handleTheme} darkMode = {darkMode}/>
-      <h1>Hello World</h1>
+     
       <p>My name is Al Amin.</p>
      
     </main>
